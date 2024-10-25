@@ -1,23 +1,23 @@
 criaCartao(
     'Categoria',
-    'Pergunta?',
-    'Resposta',
+    'quem foi o presidente que governou por mais tempo no Brasil?',
+    'Getulio Vargas',
 )
 
 criaCartao(
     'Categoria',
-    'Pergunta?',
-    'Resposta',
+    'quantos habitantes possui o Brasil?',
+    '212,6 milhoes de abitantes',
 )
 
 criaCartao(
     'Categoria',
-    'Pergunta?',
-    'Resposta',
+    'ha quantos anos o Brasil foi descoberto?',
+    '524 anos',
 )
 
 criaCartao(
     'Categoria',
-    'Pergunta?',
-    'Resposta',
+    'qual foi o primeiro presidente do Brasil?',
+    'marechal Manuel Deodoro da Fonseca',
 )
