@@ -3,7 +3,6 @@ function criaCartao(Categoria, pergunta, resposta){
     let cartao = document.createElement('article');
     cartao.className = 'cartao';
 
-
     cartao. innerHTML =`
                     <div class="cartao__conteudo">
                     <h3>${categoria}</h3>
@@ -14,7 +13,17 @@ function criaCartao(Categoria, pergunta, resposta){
                     <p>O JavaScript é uma linguagem de programação</p>
                     </div>
                     </div>
-    `
+
+
+    let respostaestavisivel = false;
+
+    function viracartao() { 
+       respostaestavisivel = !respostaestavisivel;
+       cartao.cllaslist.ttoggle('active', respostaestavisivel);
+    }
+    `cartao.addEventListener('click', viracartao)
+
+
     container.appendChild(cartao);
 
 }
